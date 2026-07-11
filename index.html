@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TECHNOVA</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="01_stylesheet.css">
+
+</head>
+
+
+<body>
+
+    <video class="global-bg-video" autoplay muted loop playsinline>
+        <source src="09_bg1.mp4" type="video/mp4">
+    </video>
+
+    <div class="global-overlay"></div>
+
+
+    <header class="navbar">
+
+        <div class="logo">
+            TECHNOVA
+        </div>
+
+
+        <nav>
+
+            <ul id="navLinks">
+
+                <li><a href="#home">HOME</a></li>
+
+                <li><a href="#about">ABOUT</a></li>
+
+                <li><a href="#projects">PROJECTS</a></li>
+
+                <li><a href="#services">FEATURES</a></li>
+
+                <li><a href="#team">TEAM</a></li>
+
+                <li class="mobile-only">
+                    <a href="#contact">CONTACT</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <div class="login desktop-only">
+
+            <a href="#contact" style="color:white;text-decoration:none;">
+
+                CONTACT
+
+            </a>
+
+        </div>
+
+
+        <div class="hamburger" onclick="toggleMenu()">
+
+            &#9776;
+
+        </div>
+
+
+    </header>
+
+
+
+    <section class="hero" id="home">
+
+
+        <div class="hero-left">
+
+
+            <h1>
+                Explore<br>
+                Future Of<br>
+                Technology
+            </h1>
+
+
+            <h3>
+                Building creative digital experiences with
+                AI, web development and modern technologies.
+            </h3>
+
+
+            <a href="#projects" class="btn">
+
+                EXPLORE PROJECTS
+
+            </a>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <section class="about" id="about">
+
+
+        <div class="about-left">
+
+
+            <h2>
+                About
+            </h2>
+
+
+
+            <p>
+                TECHNOVA is a technology based practice project
+                focused on exploring Artificial Intelligence,
+                web development and creative digital solutions.
+            </p>
+
+
+
+            <p>
+                This platform represents experiments with
+                modern design, interactive interfaces and
+                problem solving using programming concepts.
+            </p>
+
+
+
+            <p>
+                Our goal is to transform ideas into useful,
+                responsive and innovative digital experiences.
+            </p>
+
+
+        </div>
+
+
+    </section>
+
+    <section class="products" id="projects">
+
+
+        <h2 class="section-title">
+            Featured Projects
+        </h2>
+
+
+        <div class="product-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="product-card">
+
+
+                <div class="product-image">
+
+                    <img src="05_ai.jpg" alt="AI Nexus">
+
+                </div>
+
+
+                <a href="javascript:void(0)" class="product-btn" onclick="openModal('ai-nexus')">
+
+                    LEARN MORE
+
+                </a>
+
+
+            </div>
+
+
+
+            <!-- AI NEXUS MODAL -->
+
+            <div class="modal-overlay" id="modal-ai-nexus">
+
+
+                <div class="modal">
+
+
+                    <div class="modal-header-gradient cyan"></div>
+
+
+                    <button class="modal-close" onclick="closeModal('ai-nexus')">
+
+                        X
+
+                    </button>
+
+
+
+                    <div class="modal-header">
+
+
+                        <h2 class="modal-title">
+                            AI Nexus
+                        </h2>
+
+
+                        <p class="modal-tagline">
+                            Smart Artificial Intelligence Assistant
+                        </p>
+
+
+                    </div>
+
+
+
+                    <div class="modal-body">
+
+
+                        <p>
+                            AI Nexus is a creative AI based project
+                            designed to explore intelligent responses,
+                            automation and user interaction.
+                        </p>
+
+
+
+                        <h3 class="modal-section-title">
+                            Key Features
+                        </h3>
+
+
+                        <div class="modal-features">
+
+
+                            <div class="modal-feature">
+                                <span class="modal-feature-text">
+                                    AI powered responses
+                                </span>
+                            </div>
+
+
+                            <div class="modal-feature">
+                                <span class="modal-feature-text">
+                                    Smart user interaction
+                                </span>
+                            </div>
+
+
+                            <div class="modal-feature">
+                                <span class="modal-feature-text">
+                                    Automation support
+                                </span>
+                            </div>
+
+
+                            <div class="modal-feature">
+                                <span class="modal-feature-text">
+                                    Modern interface design
+                                </span>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <h3 class="modal-section-title">
+                            Technology
+                        </h3>
+
+
+                        <div class="modal-specs">
+
+
+                            <div class="modal-spec">
+                                <div class="modal-spec-value">
+                                    HTML
+                                </div>
+                                <div class="modal-spec-label">
+                                    Frontend
+                                </div>
+                            </div>
+
+
+                            <div class="modal-spec">
+                                <div class="modal-spec-value">
+                                    CSS
+                                </div>
+                                <div class="modal-spec-label">
+                                    Design
+                                </div>
+                            </div>
+
+
+                            <div class="modal-spec">
+                                <div class="modal-spec-value">
+                                    JS
+                                </div>
+                                <div class="modal-spec-label">
+                                    Logic
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="product-card">
+
+
+                <div class="product-image">
+
+
+                    <img src="06_study.png" alt="StudySphere">
+
+
+                </div>
+
+
+
+                <a href="javascript:void(0)" class="product-btn" onclick="openModal('studysphere')">
+
+                    LEARN MORE
+
+                </a>
+
+
+            </div>
+
+
+
+
+
+            <!-- STUDYSPHERE MODAL -->
+
+
+            <div class="modal-overlay" id="modal-studysphere">
+
+
+                <div class="modal">
+
+
+                    <div class="modal-header-gradient"></div>
+
+
+
+                    <button class="modal-close" onclick="closeModal('studysphere')">
+
+                        X
+
+                    </button>
+
+
+
+                    <div class="modal-header">
+
+
+                        <h2 class="modal-title">
+                            StudySphere
+                        </h2>
+
+
+                        <p class="modal-tagline">
+                            Student Productivity Platform
+                        </p>
+
+
+                    </div>
+
+
+
+                    <div class="modal-body">
+
+
+                        <p>
+                            StudySphere is a productivity based web
+                            project created to help students manage
+                            tasks, notes and learning activities.
+                        </p>
+
+
+
+                        <h3 class="modal-section-title">
+                            Key Features
+                        </h3>
+
+
+
+                        <div class="modal-features">
+
+
+                            <div class="modal-feature">
+                                <span class="modal-feature-text">
+                                    Task Management
+                                </span>
+                            </div>
+
+
+                            <div class="modal-feature">
+                                <span class="modal-feature-text">
+                                    Notes Organization
+                                </span>
+                            </div>
+
+
+                            <div class="modal-feature">
+                                <span class="modal-feature-text">
+                                    Progress Tracking
+                                </span>
+                            </div>
+
+
+                            <div class="modal-feature">
+                                <span class="modal-feature-text">
+                                    Responsive Layout
+                                </span>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <h3 class="modal-section-title">
+                            Technology
+                        </h3>
+
+
+
+                        <div class="modal-specs">
+
+
+                            <div class="modal-spec">
+                                <div class="modal-spec-value">
+                                    HTML
+                                </div>
+
+                                <div class="modal-spec-label">
+                                    Structure
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="modal-spec">
+                                <div class="modal-spec-value">
+                                    CSS
+                                </div>
+
+                                <div class="modal-spec-label">
+                                    Styling
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="modal-spec">
+                                <div class="modal-spec-value">
+                                    JS
+                                </div>
+
+                                <div class="modal-spec-label">
+                                    Functionality
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- FEATURES SECTION -->
+
+
+    <section class="services-section" id="services">
+
+
+        <h1 class="services-title">
+            Features
+        </h1>
+
+
+
+        <div class="services-grid">
+
+
+
+            <div class="service-box">
+
+                <h2>
+                    Web Development
+                </h2>
+
+                <p>
+                    Creating responsive and interactive websites
+                    using modern frontend technologies.
+                </p>
+
+            </div>
+
+
+
+
+            <div class="service-box">
+
+                <h2>
+                    Artificial Intelligence
+                </h2>
+
+                <p>
+                    Exploring AI concepts, automation and
+                    intelligent digital solutions.
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="service-box">
+
+                <h2>
+                    UI/UX Design
+                </h2>
+
+                <p>
+                    Designing clean interfaces with better
+                    user experience and visual creativity.
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="service-box">
+
+                <h2>
+                    Software Projects
+                </h2>
+
+                <p>
+                    Building practical applications to improve
+                    coding and problem solving skills.
+                </p>
+
+            </div>
+
+
+
+
+            <div class="service-box">
+
+                <h2>
+                    Technology Research
+                </h2>
+
+                <p>
+                    Learning and experimenting with upcoming
+                    tools and technologies.
+                </p>
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </section>
+    <!-- /* TEAM SECTION */ -->
+
+    <section class="team-section" id="team">
+        <div class="team-content">
+
+
+            <h1>Meet Our Team</h1>
+
+            <div class="team-slider" aria-label="Team member slider">
+                <!-- /* NAVIGATION */ -->
+                <button class="arrow left" type="button" onclick="prevMember()" aria-label="Previous member">
+                    &#10094;
+                </button>
+
+                <!-- /* PROFILE */ -->
+                <div class="floating-member" role="group" aria-roledescription="slide">
+                    <div class="profile-circle">
+                        <img id="memberImage" src="07_boy.png" alt="Team Member">
+                    </div>
+                    <h2 id="memberName">Aarav Sharma</h2>
+                    <p id="memberRole">Frontend Developer</p>
+
+                    <!-- /* SOCIAL ICONS */ -->
+                    <div class="social-icons">
+                        <a id="memberLinkedIn" href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a id="memberGithub" href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <button class="arrow right" type="button" onclick="nextMember()" aria-label="Next member">
+                    &#10095;
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- CONTACT -->
+
+
+    <section class="contact" id="contact">
+
+
+        <h2 class="section-title">
+            Contact Us
+        </h2>
+
+
+
+        <form class="contact-form" action="03_contact.php" method="POST">
+
+            <input type="text" name="name" placeholder="Your Name" required>
+
+            <input type="email" name="email" placeholder="Your Email" required>
+
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit" class="contact-btn">
+                SEND MESSAGE
+            </button>
+
+        </form>
+
+
+    </section>
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+
+
+    <footer class="footer">
+
+
+
+        <div class="footer-content">
+
+
+
+            <div class="footer-block">
+
+
+                <h3>
+                    TECHNOVA
+                </h3>
+
+
+                <p>
+
+                    Created as a web development
+                    practice project.
+
+                </p>
+
+
+            </div>
+
+
+
+
+
+            <div class="footer-block">
+
+
+                <h4>
+                    Projects
+                </h4>
+
+
+                <ul>
+
+
+                    <li>
+                        AI Nexus
+                    </li>
+
+
+                    <li>
+                        StudySphere
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+
+
+
+
+
+
+            <div class="footer-block">
+
+
+                <h4>
+                    Contact
+                </h4>
+
+
+                <p>
+                    📞 +91 XXXXX XXXXX
+                </p>
+
+
+                <p>
+                    ✉️ technova@email.com
+                </p>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <div class="footer-bottom">
+
+            © 2026 TECHNOVA | Practice Project
+
+        </div>
+
+
+
+    </footer>
+
+
+
+
+
+
+    <!-- CHATBOT -->
+
+
+    <div class="chatbot-container" id="chatbot">
+
+
+        <div class="chatbot-header">
+
+
+            <div class="robot-face">
+                🤖
+            </div>
+
+
+            <span>
+                TECHNOVA AI
+            </span>
+
+
+            <button onclick="toggleChatbot()">
+
+                ✕
+
+            </button>
+
+
+        </div>
+
+
+
+
+        <div class="chatbot-messages" id="chatMessages">
+
+
+        </div>
+
+
+
+
+        <div class="chatbot-input">
+
+            <input type="text" id="chatInput" placeholder="Type your message...">
+
+            <button onclick="sendMessage()">
+                Send
+            </button>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <div class="chatbot-float-btn" onclick="toggleChatbot()">
+
+        🤖
+
+    </div>
+
+    <script src="02_script.js"></script>
+
+</body>
+
+</html>
